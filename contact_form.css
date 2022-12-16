@@ -1,0 +1,90 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: "Gill Sans";
+}
+
+fieldset {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0;
+  border: none;
+}
+
+dl {
+  display: block;
+  margin-block-start: 0.5rem;
+  margin-block-end: 0;
+}
+
+dd, dt {
+  display: inline-block;
+}
+
+dd {
+  margin: 0 0 25px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 1rem;
+  resize: vertical;
+  box-sizing: border-box;
+  border: 1px solid #cecece;
+}
+
+[type="text"],
+[type="email"] {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #cecece;
+  padding: 5px;
+  font-family: "Gill Sans";
+}
+
+.partial {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.whole {
+  width: 100%;
+}
+
+.half {
+  width: 50%;
+}
+
+.one-tenth {
+  width: 10%;
+}
+
+.four-tenths {
+  width: 40%;
+}
+
+.left {
+  padding-right: 5px;
+}
+
+.right {
+  padding-left: 5px;
+}
+
+.middle {
+  padding: 0 5px;
+}
+
+#colors li, #techchoices li {
+  font-size: 16px;
+}

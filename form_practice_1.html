@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <dl> 
+          <dt><label for="firstname">First Name</label></dt>
+          <dd><input type="text" name="firstname" id="firstname" required></dd>
+
+          <dt><label for="lastname">Last Name</label></dt>
+          <dd><input type="text" name="lastname" id="lastname" required></dd>
+
+          <dt><label for="email">Email Address</label></dt>
+          <dd>
+            <input type="email" name="email" id="email" required
+                   autocomplete="off" autocorrect="off" autocapitalize="none">
+          </dd>
+
+          <dt><label for="phone">Phone Number</label></dt>
+          <dd><input type="tel" name="phone" id="phone" placeholder="(###)-###-####"required></dd>
+
+          <dt><label for="phonetype">Phone Type</label></dt>
+          <dd><select name="phonetype" id="phonetype">
+              <option selected>home</option>
+              <option>business</option>
+              <option>mobile</option>
+            </select>
+          </dd>
+
+          <dt><label for="message">Optional Message</label></dt>
+          <dd><textarea name="message" id="message" rows="6" cols="80" placeholder="Type your message here."></textarea></dd>
+        </dl>
+
+        <br>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Positioning practice</title>
+    <style>
+      body {
+        font-size: 28px;
+        margin: 0;
+        padding: 0;
+      }
+
+      section {
+        border: 8px solid teal;
+      }
+
+      #positioned {
+        width: 400px;
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        box-sizing: border-box;
+        margin-left: -200px;
+        text-align: center;
+        background-color: lawngreen;
+        padding: 60px;
+        z-index: 2;
+      }
+
+      #positioned div {
+        background-color: pink;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+      }
+
+      #between {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .6);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        color: tan;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et lectus lectus. In tincidunt elementum molestie. Maecenas vitae augue augue. Pellentesque tempor eget eros vel vestibulum. Donec sagittis, augue sit amet consequat aliquet, ante odio sodales tortor, quis tempor lacus purus at elit. Etiam suscipit ornare enim dictum ullamcorper. Nulla interdum tempor nibh, non blandit risus pretium sit amet. Suspendisse ex lacus, fringilla non magna id, ornare malesuada eros. Morbi malesuada lorem sit amet magna ullamcorper, eu pellentesque turpis feugiat. Nunc justo felis, porttitor vitae lorem eget, facilisis feugiat metus. Suspendisse potenti. Aliquam ut faucibus dolor, a lobortis mi. Cras condimentum convallis libero nec pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse lobortis, turpis vel dignissim venenatis, odio eros sodales quam, vitae posuere mi nulla a ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      <p>Etiam suscipit magna vel rutrum venenatis. Maecenas scelerisque hendrerit eros, suscipit viverra risus pretium ac. Nam tristique dui nunc, at rhoncus lectus pulvinar id. Nullam tristique porta consectetur. In scelerisque diam eu magna ullamcorper lobortis. Mauris tortor augue, pellentesque a fermentum et, semper ac tellus. Sed aliquam tellus diam, vitae facilisis lorem condimentum sit amet. Maecenas semper convallis ligula quis porta. Vivamus fringilla at tortor id commodo. Nunc id enim eu elit pulvinar varius. Aliquam consectetur, ligula et bibendum euismod, nisl tortor faucibus neque, vitae feugiat leo purus a dui. Phasellus pulvinar, eros eget ultricies lacinia, ex turpis viverra sapien, vel iaculis lectus sem vitae ex. Nullam accumsan est eget augue efficitur finibus. Ut libero nulla, faucibus eu ultricies in, ornare sed nibh.</p>
+
+      <p>Sed eu lorem sed nulla venenatis vestibulum ut sit amet nisi. Sed quis orci et nulla auctor fringilla. Nunc finibus elit sapien, ut consequat velit fringilla vel. In vitae risus ex. Donec consectetur ipsum enim, sed sagittis ante vulputate et. Nunc elementum arcu nec sagittis rutrum. Donec eu accumsan purus. Mauris tincidunt egestas odio sed fringilla. Nullam sit amet pretium enim.</p>
+
+      <p>Integer mi est, placerat sed hendrerit quis, lacinia molestie est. Donec dolor sem, dignissim ut iaculis condimentum, rhoncus ut risus. Donec sodales velit quam, quis ullamcorper nunc pellentesque at. Ut a ultricies neque, a gravida metus. Suspendisse semper in erat vel rhoncus. Ut tempus lectus nec purus interdum, sit amet aliquam lorem consequat. Morbi a maximus tortor, tempor facilisis nulla.</p>
+
+      <p>Nullam elementum quis sapien et maximus. Aliquam erat volutpat. Aliquam vestibulum, sem in elementum gravida, nulla quam interdum urna, eget congue velit tortor vitae nunc. Quisque sollicitudin mi sit amet venenatis auctor. Fusce facilisis venenatis lectus quis tempor. Morbi tincidunt lacus iaculis arcu maximus fermentum. Suspendisse sed vestibulum mi. In vehicula suscipit fringilla. Proin magna ipsum, rhoncus nec lectus vel, auctor aliquet justo.</p>
+
+      <p>Praesent hendrerit mattis nisi non porta. Aliquam gravida justo mi. Mauris feugiat neque sit amet dolor dapibus, vitae egestas lorem faucibus. Duis ultricies scelerisque feugiat. Phasellus eget mi lobortis, luctus magna at, pharetra lacus. Suspendisse nec tortor fermentum, dictum velit quis, fringilla lacus. Nullam arcu enim, vehicula sit amet malesuada sed, euismod vel mauris. Nullam mattis lacinia leo, eu facilisis risus ullamcorper id. Pellentesque purus neque, blandit vel ex id, tincidunt auctor nibh. Nunc nec lectus et mauris auctor suscipit.</p>
+
+      <p>Curabitur fringilla, nisl a pharetra fermentum, ex justo mollis massa, sed dignissim leo tellus a tellus. Cras tellus dui, dapibus quis tristique vel, varius nec leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut sed vulputate nunc. Donec volutpat a sapien id suscipit. Suspendisse consequat mauris augue, auctor dignissim urna congue et. Vivamus in luctus augue, at facilisis velit. Sed vitae volutpat lacus. Quisque et ornare arcu, at pulvinar ligula. Aenean mi turpis, tempus vitae mi ut, fringilla molestie erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vel volutpat massa. Nunc condimentum metus sem, in tincidunt nisi auctor id. Nullam et lobortis augue. Nam nisl erat, convallis vel varius a, venenatis eget metus. Nullam tristique diam sed semper maximus.</p>
+
+      <p>Ut ultrices, lacus porttitor dapibus convallis, mauris turpis vestibulum ex, egestas ornare ante sem quis odio. Morbi ac cursus lacus. Phasellus vitae aliquet risus. Quisque at augue ut massa pretium rhoncus finibus vitae eros. Donec finibus porta lectus. Donec nec sem hendrerit erat accumsan rutrum sit amet eu magna. Suspendisse non arcu ac magna tincidunt malesuada. Donec pretium tristique tortor, non pharetra urna porttitor vel. Curabitur mattis lorem non quam convallis tempus. Quisque interdum et ex et maximus. Nunc tristique eleifend libero, sed pharetra magna consectetur quis. Curabitur dapibus consequat nibh eget commodo. Praesent quis lacinia massa. Nunc augue ante, semper in purus a, mollis consectetur purus. Vivamus imperdiet elementum cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+      <p>Vivamus imperdiet sapien a felis pellentesque, in consequat enim bibendum. Suspendisse accumsan, urna eu varius dignissim, augue nisi rhoncus eros, cursus consectetur neque odio et lorem. Proin in pellentesque elit, id tempor est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce leo justo, interdum at lectus non, tincidunt placerat erat. Proin accumsan, elit in placerat bibendum, erat arcu accumsan mauris, eu maximus ex metus vitae ante. Nam vitae eros ut leo varius ornare id non nunc. Suspendisse id facilisis metus, eu consequat nibh. Sed egestas orci eget dignissim ullamcorper. Quisque fermentum risus pretium pharetra vehicula. Maecenas placerat diam sed euismod lacinia. Vestibulum posuere placerat tellus aliquet luctus. Nullam mauris lacus, aliquam sed pretium ut, iaculis vel neque. Etiam egestas lectus et accumsan cursus. Nullam fermentum tortor non cursus lobortis. Curabitur at cursus enim.</p>
+
+      <p>Donec aliquet gravida enim, eu sollicitudin ipsum fermentum eu. Phasellus feugiat nisl ac magna mattis pharetra. Nam maximus eros eu felis fringilla viverra. Duis et iaculis urna. Curabitur fermentum lobortis lacinia. Nam eu viverra odio. Duis iaculis ligula non commodo luctus. Nullam eget quam sit amet sapien varius laoreet. Nulla vitae odio nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet mauris eget ex auctor venenatis. Ut aliquet ornare suscipit.</p>
+    </section>
+    <aside id="positioned">
+      I'm positioned!
+      <div></div>
+    </aside>
+    <div id="between">I cover almost everything</div>
+  </body>
+</html>

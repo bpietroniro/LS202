@@ -1,0 +1,38 @@
+body, section, article, aside {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lemonchiffon;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: thistle;
+  /* overflow: auto; */
+}
+
+article, aside {
+  box-sizing: border-box;
+  float: left;
+  padding: 1rem;
+}
+
+article {
+  width: 70%;
+  background-color: paleturquoise;
+}
+
+aside {
+  float: none;
+  background-color: palegreen;
+  overflow: hidden;
+}
+
+footer {
+  background-color: lightsteelblue;
+  clear: both;
+  padding: 1rem;
+}
